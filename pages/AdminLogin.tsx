@@ -10,7 +10,7 @@ const AdminLogin: React.FC<AdminLoginProps> = ({ onLogin }) => {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    // Master password updated as requested: Nitesh45090@
+    // Correct Master Password
     if (pass === 'Nitesh45090@') {
       onLogin(true);
     } else {
