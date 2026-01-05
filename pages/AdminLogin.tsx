@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 
 interface AdminLoginProps {
@@ -11,7 +10,7 @@ const AdminLogin: React.FC<AdminLoginProps> = ({ onLogin }) => {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    // Updated master password for secure access
+    // Master password updated as requested: Nitesh45090@
     if (pass === 'Nitesh45090@') {
       onLogin(true);
     } else {
@@ -35,7 +34,7 @@ const AdminLogin: React.FC<AdminLoginProps> = ({ onLogin }) => {
               value={pass}
               onChange={(e) => setPass(e.target.value)}
               placeholder="••••••••"
-              className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 focus:ring-2 focus:ring-slate-900 outline-none transition-all"
+              className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 focus:ring-2 focus:ring-slate-900 outline-none transition-all text-slate-900"
             />
           </div>
           {error && <p className="text-red-500 text-xs font-bold text-center">{error}</p>}
