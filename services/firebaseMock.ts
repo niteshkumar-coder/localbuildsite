@@ -1,4 +1,3 @@
-
 import { Service, BlogPost, Lead } from '../types';
 
 // Fixed: Removed Firebase imports as they were causing module resolution errors.
@@ -37,7 +36,7 @@ class FirestoreService {
         title: 'The Future of Local AI',
         excerpt: 'How local businesses are using Gemini to automate customer service.',
         content: 'AI is no longer a luxury for big corporations. Local businesses in Delhi and beyond are now using automated feedback loops to dominate their niche.',
-        author: 'Rishabh Singh',
+        author: 'Omkar Singh',
         date: 'June 15, 2024',
         thumbnail: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800',
         slug: 'future-of-local-ai'

@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { db } from '../services/firebaseMock';
@@ -83,7 +82,7 @@ const Home: React.FC = () => {
               <div className="mt-8 relative z-20 text-center">
                 <div className="inline-block px-8 py-3 bg-slate-900/80 backdrop-blur-md border border-cyan-500/30 rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.5)] transform group-hover:scale-105 transition-transform">
                   <h2 className="text-2xl md:text-3xl font-black tracking-[0.2em] text-white uppercase drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">
-                    Rishabh <span className="text-cyan-400">Singh</span>
+                    Omkar <span className="text-cyan-400">Singh</span>
                   </h2>
                   <div className="h-0.5 w-full bg-gradient-to-r from-transparent via-cyan-500 to-transparent mt-1 opacity-50"></div>
                   <p className="text-[10px] font-black text-slate-500 uppercase tracking-[0.4em] mt-2">Chief_Strategist</p>
